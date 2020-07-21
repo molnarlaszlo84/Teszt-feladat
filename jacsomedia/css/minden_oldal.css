@@ -1,0 +1,39 @@
+#table {
+    width:100%;
+}
+
+
+#bal_oldal{
+    width:40%;
+    text-align:center;
+}
+
+#kozepso{
+    width:40%;
+    text-align:right;
+}
+
+#jobb_oldal {
+    width:20%;
+    text-align:left;
+}
+
+#kulso {
+    width:80%;
+    text-align:center;
+}
+
+.menupont {
+    display:inline;
+    margin:10px;
+}
+
+#bal_oldal_also{
+    width: 50%;
+    text-align :center;
+}
+
+#jobb_oldal_also {
+    width: 50%;
+    text-align: left;
+}

@@ -1,0 +1,68 @@
+#belepesi_urlap {
+    background-color: RGB(85, 52, 131);
+    color: white;
+    font-weight: bold;
+    border-top: 5px solid RGB(236, 0, 140);
+    padding:20px;
+    width: 20%;
+    position: relative;
+    left: 38.5%;
+}
+
+#ok {
+    background-color: RGB(236, 0, 140);
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    left: 30%;
+}
+
+#belepesi_hiba {
+    color: RGB(236, 0, 140);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.link_felso_sor {
+    color: RGB(85, 52, 131);
+    text-decoration: none;
+}
+
+.link_masodik_sor {
+    color: RGB(85, 52, 131);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link_harmadik_sor {
+    color: RGB(85, 52, 131);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link_also_sor {
+    color: RGB(85, 52, 131);
+    text-decoration: none;
+}
+
+.link_felso_sor:visited {
+    color: RGB(236, 0, 140);
+    text-decoration: none;
+}
+
+.link_masodik_sor:visited {
+    color: RGB(236, 0, 140);
+}
+
+.link_harmadik_sor:visited {
+    color: RGB(236, 0, 140);
+}
+
+.link_also_sor:visited {
+    color: RGB(236, 0, 140);
+}

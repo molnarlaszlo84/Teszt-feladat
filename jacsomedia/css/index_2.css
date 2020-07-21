@@ -1,0 +1,45 @@
+#szo_table {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.szo_bal .gomb {
+    background-color: RGB(85, 52, 131);
+    color: white;
+    width: 150px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.szo_jobb .gomb {
+    background-color: RGB(236, 0, 140);
+    color: white;
+    width: 150px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.szo_bal {
+    width: 150px;
+    height: 40px;
+}
+
+.szo_jobb {
+    width: 150px;
+}
+
+#save {
+    background-color: RGB(236, 0, 140);
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>
+            Kezdőlap
+        </title>
+        <style>
+        </style>
+        <link rel="stylesheet" type="text/css" href="css/minden_oldal.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Próbafeladat" />
+        <meta name="keywords" content="Próbafeladat" />
+        <meta name="author" content="Molnár László" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="js/index.js">
+        </script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'>
+        </script>
+    </head>
+
+    <body>
+        <table id="table" class="table">
+            <tr id="felso_sor" class="sor">
+                <td id="bal_oldal" class="cella">
+                    <img src="img/baloldali_logo.png" id="baloldali_logo" class="logo" />
+                </td>
+                <td id="kozepso" class="sor">
+                    <a href="" id="angol_nyelv_link" class="link_felso_sor">
+                        English
+                        <i class='fas fa-angle-down' style='font-size:16px'>
+                        </i>
+                    </a>
+                    <a href="" id="kapcsolat_link" class="link_felso_sor">Contact</a>
+                    <a href="" id="oldal_terkep_link" class="link_felso_sor">Sitemap</a>
+                    <br />
+                    <a href="" id="kollekcioim_link" class="link_masodik_sor">
+                        <i class='fas fa-folder' style='font-size:16px'>
+                        </i>
+                        My Collection
+                    </a>
+                    <a href="kilepes.php" id="kilepes_link" class="link_masodik_sor">
+                        <i class='fas fa-sign-out-alt' style='font-size:16px'>
+                        </i>
+                        Logout
+                    </a>
+                </td>
+                <td id="jobb_oldal" class="sor">
+                    <img src="img/logo.png" id="baloldali_logo" class="logo" />
+                </td>
+            </tr>
+        </table>
+        <div id="kulso" class="kulso">
+            <div id="home_menupont" class="menupont">
+            <a href="" id="home_link" class="link_harmadik_sor">
+                <i class='fa fa-home' style='font-size:16px'>
+                </i>
+            </a>
+            </div>
+            <div id="mpaf_menupont" class="menupont">
+                <a href="" id="mpaf_link" class="link_harmadik_sor">MPAF</a>
+            </div>
+            <div id="venous_menupont" class="menupont">
+                <a href="" id="venous_link" class="link_harmadik_sor">VENOUS</a>
+            </div>
+            <div id="acs_menupont" class="menupont">
+                <a href="" id="acs_link" class="link_harmadik_sor">ACS</a>
+            </div>
+            <div id="kivamoxoban_studies_menupont" class="menupont">
+                <a href="" id="kivamoxoban_studies_link" class="link_harmadik_sor">KIVAMOXOBAN STUDIES</a>
+            </div>
+            <div id="background_informations_menupont" class="menupont">
+                <a href="" id="background_informations_link" class="link_harmadik_sor">BACKGROUND INFORMATION</a><br />
+            </div>
+        </div>
+        <div style="height:100px">
+        </div>
+        <form id="belepesi_urlap" class="urlap" action="index.php" method="post" target="_self">
+            Please Sign in<br />
+            User name:<br />
+            <input name="felhasznalonev" value="{%felhasznalonev%}" id="felhasznalonev" class="input" size="40" placeholder="Felhasználóneved" required />
+            <br />
+            Password:<br />
+            <input type="password" name="jelszo" value="{%jelszo%}" id="jelszo" class="password_input" size="40" placeholder="Jelszavad" required />
+            <br />
+            <br />
+            <input type="submit" name="ok" value="ENTER" id="ok" class="submit_input" />
+            <br />
+        </form>
+        <div id="belepesi_hiba" class="hiba">
+            <br />
+            <br />
+        </div>
+        <div style="height:100px">
+        </div>
+        <br />
+        <table id="table" class="table">
+            <tr id="felso_sor" class="also_sor">
+                <td id="bal_oldal_also" class="cella">
+                     <a href="" id="felhasznalasi_feltetelek_link" class="link_also_sor">Conditions of use</a>
+                     <span id="vonal_1" class="elvalaszto_vonal">|</span>
+                     <a href="" id="adatvedelmi_iranyelvek_link" class="link_also_sor">Privacy statement</a>
+                     <span id="vonal_2" class="elvalaszto_vonal">|</span>
+                     <a href="" id="imprint_link" class="link_also_sor">Imprint</a>
+                </td>
+                <td id="jobb_oldal_also" class="also_sor">
+                    This site is intended to provide information to an international audience outside the USA and UK.
+                </td>
+            </tr>
+        </table>        
+    </body>
+
+</html>
